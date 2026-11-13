@@ -1,0 +1,26 @@
+{
+  "name": "@brdatahub/global-intelligence-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for B2B Website/WhatsApp Lead Enrichment, ATS Hiring Signals, Polymarket Arbitrage, Multi-Country News & Brazil KYB/Auctions.",
+  "type": "module",
+  "bin": {
+    "brdatahub-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "b2b-leads",
+    "polymarket",
+    "greenhouse-jobs",
+    "whatsapp-scraper",
+    "apify",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
